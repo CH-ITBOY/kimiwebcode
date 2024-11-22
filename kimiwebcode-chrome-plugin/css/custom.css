@@ -1,0 +1,135 @@
+#itshijTestPanel {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    background: #fff;
+}
+
+
+.itshij-container {
+  z-index: 2000;
+  position: absolute;
+  width: 220px;
+  height: 46px;
+  left: 84px;
+  top: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  resize: both;
+  cursor: move;
+}
+.itshij-header {
+  background-color: #2e2e2e;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  cursor: move;
+  position: relative;
+}
+.itshij-header button {
+  font-size: 32px;
+  margin-top: -10px;
+  display: inline-block;
+  float: right;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#itshijRefreshButton {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+#itshijDownloadButton{
+  transform: rotate(90deg);
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.itshij-iframe-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+#itshij-testpanel {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/* Resizable handle (bottom-right corner) */
+.itshij-resize-handle {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+}
+
+/* 汉堡菜单按钮样式 */
+.itshij-hamburger {
+  display: inline-block;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  float: right;
+  margin: 6px;
+}
+
+.itshij-hamburger div {
+  background-color: #fff;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.itshij-hamburger div:nth-child(1) {
+  top: 0;
+}
+
+.itshij-hamburger div:nth-child(2) {
+  top: 5px;
+}
+
+.itshij-hamburger div:nth-child(3) {
+  top: 10px;
+}
+
+/* 下拉菜单样式 */
+.itshij-dropdown {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  width: 150px;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.itshij-dropdown button {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.itshij-dropdown button:hover {
+  background-color: #f0f0f0;
+}
